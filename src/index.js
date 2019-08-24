@@ -10,10 +10,9 @@ function component() {
 
   btn.onclick = printMe;
 
-  element.append(btn);
+  element.appendChild(btn);
 
   return element;
 }
 
-const root = document.querySelector('#root');
-root.append(component());
+document.body.append(component());
