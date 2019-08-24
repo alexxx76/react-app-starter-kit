@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Oswald-ExtraLight.ttf');
+}
+
 .hello {
   color: red;
+  font-family: 'MyFont';
+  font-size: 28px;
 }
